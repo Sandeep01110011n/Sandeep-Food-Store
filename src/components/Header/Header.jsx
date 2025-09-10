@@ -4,8 +4,8 @@ const Header = () => {
   return (
     <div className='header'>
       <div className="header-contents">
-        <h2>Order your favourite food here</h2>
-        <p>Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary experties. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time.</p>
+        <h2>Grab your favorite food here!</h2>
+        <p>Explore our wide variety of delicious dishes, made with top-quality ingredients and culinary expertise. Our goal is to delight your taste buds and make every meal a memorable experience</p>
         <button>View Menu</button>
       </div>
     </div>

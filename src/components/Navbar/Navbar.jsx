@@ -13,8 +13,7 @@ const Navbar = ({setShowLogin}) => {
   return (
     <div className='navbar'>
         <h1>Sandeep Food Store</h1>
-        {/* <Link to='/'><img src={assets.logo} alt="" className="logo" /></Link> */}
-        <ul className="navbar-menu">
+           <ul className="navbar-menu">
             <Link to='/' onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>Home</Link>
             <a href= '#explore-menu' onClick={()=>setMenu("menu")} className={menu==="menu"?"active":""}>Menu</a>
             <a href= '#app-download'  onClick={()=>setMenu("mobile-app")} className={menu==="mobile-app"?"active":""}>Mobile-App</a>
