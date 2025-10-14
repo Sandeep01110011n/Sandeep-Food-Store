@@ -1,8 +1,78 @@
-# React + Vite
+ # Sandeep Food Store (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Live Demo](https://img.shields.io/badge/demo-online-brightgreen)](https://sandeep-food-store.vercel.app)
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sandeep Food Store is a frontend web application for a food ordering or delivery service.
+It allows users to browse food items, view details, add to cart, and proceed to checkout.
+The project is deployed at: **https://sandeep-food-store.vercel.app**
+
+## Features
+
+- Browse food categories & items
+- Product detail pages
+- Add to cart / remove from cart
+- Cart summary and checkout
+- Responsive design (mobile, tablet, desktop)
+
+## Tech Stack
+
+| Layer | Technology |
+|------|------------|
+| UI Framework | React |
+| Build Tool | Vite |
+| Styling | CSS / Tailwind (update as per your project) |
+| State Management | React Context / Redux (if used) |
+| Deployment | Vercel |
+
+## Installation
+
+```bash
+git clone https://github.com/Sandeep01110011n/Sandeep-Food-Store.git
+cd Sandeep-Food-Store
+npm install
+```
+
+## Run Locally
+
+```bash
+npm run dev
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Deployment
+
+This project is deployed on **Vercel**.  
+Just connect your GitHub repo to Vercel and it will auto-deploy on push.
+
+## Folder Structure (Example)
+
+```
+src/
+├── components/
+├── pages/
+├── assets/
+├── styles/
+├── App.jsx
+└── main.jsx
+```
+
+## Contributing
+
+Feel free to fork and submit pull requests.
+
+## License
+
+MIT License
+
+## Contact
+
+Author: **Sandeep**  
+GitHub: https://github.com/Sandeep01110011n  
+Live Demo: https://sandeep-food-store.vercel.app
