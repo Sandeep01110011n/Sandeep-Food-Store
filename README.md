@@ -22,8 +22,8 @@ The project is deployed at: **https://sandeep-food-store.vercel.app**
 |------|------------|
 | UI Framework | React |
 | Build Tool | Vite |
-| Styling | CSS / Tailwind (update as per your project) |
-| State Management | React Context / Redux (if used) |
+| Styling | CSS / Tailwind |
+| State Management | React Context / Redux  |
 | Deployment | Vercel |
 
 ## Installation
@@ -67,9 +67,7 @@ src/
 
 Feel free to fork and submit pull requests.
 
-## License
-
-MIT License
+ 
 
 ## Contact
 
